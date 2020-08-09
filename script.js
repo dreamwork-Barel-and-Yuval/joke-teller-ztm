@@ -14,6 +14,7 @@ function toggleButton() {
 // passing joke to voiceree API
 function tellMe(joke) {
     VoiceRSS.speech({
+        // this is a fun project so i have dicide to keep the a api key here
         key: '9377d21c8a2c47029ca6509cbaaedc81',
         src: joke,
         hl: 'en-us',
