@@ -45,11 +45,11 @@ async function getJokes() {
 
     } catch (error) {
         // catch Errors Hare
-        console.log('whoops', error)
+        console.log('whoops', error);
     }
 }
 
 // Event Listeners
 button.addEventListener('click', getJokes);
-audioElement.addEventListener('ended', togglebutton)
+audioElement.addEventListener('ended', toggleButton);
 
